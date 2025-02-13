@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #050b19;
+}
+.container h1{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 50px
+}
+.container h2, img, p{
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 5px;
+    color: white;
+}
+.navbar {
+    background-color: #0e064a;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.navbar .left {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Ocupa el espacio disponible */
+}
+.navbar .logo a, .navbar .auth a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+.navbar .avatar img{
+    width: 70px;
+    height: 50px;
+}
+.navbar .auth {
+    display: flex;
+    gap: 5px; /* Espaciado entre "Sign Up" y "Login" */
+    padding-right: 10px;
+}
+.navbar a:hover {
+    text-decoration:solid;
+    background-color: black
+}
+.pie-pagina{
+    width: 100%;
+    background-color: #0e064a;
+}
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 45px 0;
+}
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 200px;
+}
+.pie-pagina .grupo-1 .box h2 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: #050b19;
+    text-align: center;
+    transition: all 300ms;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    background-color: black;
+}
+.pie-pagina .grupo-2 {
+    background-color: #050b19;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+/* Estilos para el contenedor principal */
+.container {
+    display: flex; /* Organiza los elementos en una fila */
+    flex-direction: column; /* Mantiene el título y la imagen en una columna */
+    align-items: center; /* Centra los elementos dentro del container */
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* Contenedor para las secciones (Creador y Protagonista) */
+.secciones {
+    display: flex; /* Alinea las dos secciones en fila */
+    justify-content: space-between; /* Espaciado uniforme */
+    gap: 20px; /* Espacio entre las secciones */
+    width: 100%; /* Asegura que ocupen todo el ancho disponible */
+    max-width: 900px; /* Ajusta el ancho máximo para evitar que se expandan demasiado */
+}
+
+/* Estilos individuales de cada sección */
+.seccion-1, .seccion-2 {
+    flex: 1; /* Ocupa la misma cantidad de espacio */
+    max-width: 50%; /* Evita que crezcan más del 50% */
+}
+
+.creador, .protagonista {
+    background-color: #0e064a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: left;
+}
