@@ -1,6 +1,144 @@
-.title{
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 50px;
+.introduccion-team {
+    margin-top: 6%;
+    margin-bottom: 20px;
     text-align: center;
+    color: white;
+    text-shadow: 5px 5px 6px white ;
+    padding-bottom: 1rem;
+}
+.secciones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+}
+/*LUFFY*/
+.secciones .luffy , .zoro, .nami , .ussop, .sanji, .chopper, .robin, .franky, .brook, .jinbe {
+    background-color: #0e064a;
+    color: white;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.secciones .luffy h2 {
+    padding-bottom: 10px;
+}
+.secciones .luffy img {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.secciones .luffy:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 0 10px 5px white;
+}
+/*Zoro*/
+.secciones .zoro h2 {
+    padding-bottom: 10px;
+}
+.secciones .zoro img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+.secciones .zoro:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 0 10px 5px white;
+}
+/*NAMI*/
+.secciones .nami h2 {
+    padding-bottom: 10px;
+}
+.secciones .nami img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+.secciones .nami:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 0 10px 5px white;
+}
+/*USOPP*/
+.secciones .ussop h2 {
+    padding-bottom: 10px;
+}
+.secciones .ussop img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+.secciones .ussop:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 0 10px 5px white;
+}
+/*SANJI*/
+.secciones .sanji h2 {
+    padding-bottom: 10px;
+}
+.secciones .sanji img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+.secciones .sanji:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 0 10px 5px white;
+}
+/*CHOPPER*/
+.secciones .chopper h2 {
+    padding-bottom: 10px;
+}
+.secciones .chopper img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+.secciones .chopper:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 0 10px 5px white;
+}
+/*ROBIN*/
+.secciones .robin h2 {
+    padding-bottom: 10px;
+}
+.secciones .robin img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+.secciones .robin:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 0 10px 5px white;
+}
+/*FRANKY*/
+.secciones .franky h2 {
+    padding-bottom: 10px;
+}
+.secciones .franky img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+.secciones .franky:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 0 10px 5px white;
+}
+/*BROOK*/
+.secciones .brook h2 {
+    padding-bottom: 10px;
+}
+.secciones .brook img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+.secciones .brook:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 0 10px 5px white;
+}
+/*JINBE*/
+.secciones .jinbe {
+    align-items: center;
+}
+.secciones .jinbe h2 {
+    padding-bottom: 10px;
+}
+.secciones .jinbe img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+.secciones .jinbe:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 0 10px 5px white;
 }
