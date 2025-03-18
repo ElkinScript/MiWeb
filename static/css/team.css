@@ -3,8 +3,9 @@
     margin-bottom: 20px;
     text-align: center;
     color: white;
-    text-shadow: 5px 5px 6px white ;
+    text-shadow: 4px 4px 6px white ;
     padding-bottom: 1rem;
+    font-size: 25px;
 }
 .secciones {
     display: grid;
